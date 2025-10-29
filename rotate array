@@ -1,0 +1,23 @@
+class Solution {
+    public void rotate(int[] nums, int k) {
+        // Handle cases where k is larger than the array length
+        k = k % nums.length;
+        
+        // Corrected 'lenght' to 'length'
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        // Corrected 'lenght' to 'length'
+        reverse(nums, k, nums.length - 1);
+    }
+
+    // Corrected parameter name 'num' to 'nums'
+    public void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
