@@ -1,0 +1,26 @@
+class Solution {
+    public int maxProduct(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+
+        int current_max = nums[0];
+        int current_min = nums[0];
+        int global_max = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            int n = nums[i];
+
+            int temp_max = current_max;
+
+            current_max = Math.max(n, Math.max(n * current_max, n * current_min));
+
+            current_min = Math.min(n, Math.min(n * temp_max, n * current_min));
+            if (current_max > global_max) {
+                global_max = current_max;
+            }
+        }
+
+        return global_max;
+    }
+}
