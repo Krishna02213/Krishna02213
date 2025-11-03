@@ -1,0 +1,21 @@
+class Solution {
+    /**
+     * Finds the single number that appears only once in an array 
+     * where every other element appears twice, using the XOR operation.
+     * * @param nums The input array of integers.
+     * @return The single, non-repeated number.
+     */
+    public int singleNumber(int[] nums) {
+        // Initialize the result to 0. XORing any number with 0 returns the number itself.
+        int result = 0;
+        
+        // Iterate through all elements. The XOR operation cancels out all numbers 
+        // that appear an even number of times (A ^ A = 0), leaving the single number.
+        for (int num : nums) {
+            result ^= num;
+        }
+        
+        // The final value of result is the single number.
+        return result;
+    }
+}
