@@ -1,0 +1,28 @@
+class Solution {
+    /**
+     * Determines if ransomNote can be constructed by using the letters from magazine.
+     * Each letter in magazine can only be used once.
+     *
+     * @param ransomNote The note to be constructed.
+     * @param magazine The source of letters.
+     * @return true if construction is possible, false otherwise.
+     */
+    public boolean canConstruct(String ransomNote, String magazine) {
+        int[] counts = new int[26];
+
+        for (char c : magazine.toCharArray()) {
+
+            counts[c - 'a']++;
+        }
+
+        for (char c : ransomNote.toCharArray()) {
+            int index = c - 'a';
+            counts[index]--;
+            if (counts[index] < 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
