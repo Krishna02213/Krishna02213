@@ -1,0 +1,34 @@
+import java.util.HashSet;
+import java.util.Set;
+
+class Solution {
+    // Renamed the method from numGoodSplits to numSplits
+    public int numSplits(String s) { 
+        int n = s.length();
+        if (n <= 1) {
+            return 0;
+        }
+
+        int[] prefixDistinct = new int[n];
+        Set<Character> distinctChars = new HashSet<>();
+        for (int i = 0; i < n; i++) {
+            distinctChars.add(s.charAt(i));
+            prefixDistinct[i] = distinctChars.size();
+        }
+
+        int[] suffixDistinct = new int[n];
+        distinctChars.clear();
+        for (int i = n - 1; i >= 0; i--) {
+            distinctChars.add(s.charAt(i));
+            suffixDistinct[i] = distinctChars.size();
+        }
+
+        int goodSplitsCount = 0;
+        for (int i = 0; i < n - 1; i++) {
+            if (prefixDistinct[i] == suffixDistinct[i + 1]) {
+                goodSplitsCount++;
+            }
+        }
+        return goodSplitsCount;
+    }
+}
