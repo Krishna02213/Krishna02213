@@ -1,0 +1,16 @@
+import java.util.*;
+
+class Solution {
+    public int subarraysDivByK(int[] nums, int k) {
+        Map<Integer, Integer> count = new HashMap<>();
+        count.put(0, 1);
+        int prefix = 0, ans = 0;
+        for (int x : nums) {
+            prefix += x;
+            int r = ((prefix % k) + k) % k;
+            ans += count.getOrDefault(r, 0);
+            count.put(r, count.getOrDefault(r, 0) + 1);
+        }
+        return ans;
+    }
+}
