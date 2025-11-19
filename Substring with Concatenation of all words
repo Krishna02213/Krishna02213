@@ -1,0 +1,64 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+class Solution {
+    public List<Integer> findSubstring(String s, String[] words) {
+        List<Integer> result = new ArrayList<>();
+        if (s == null || s.length() == 0 || words == null || words.length == 0) {
+            return result;
+        }
+
+        int wordLen = words[0].length();
+        int numWords = words.length;
+        int totalLen = wordLen * numWords;
+        int sLen = s.length();
+
+        if (sLen < totalLen) {
+            return result;
+        }
+
+        Map<String, Integer> requiredFreq = new HashMap<>();
+        for (String word : words) {
+            requiredFreq.put(word, requiredFreq.getOrDefault(word, 0) + 1);
+        }
+
+        for (int i = 0; i < wordLen; i++) {
+            Map<String, Integer> currentFreq = new HashMap<>();
+            int wordsUsed = 0;
+            int left = i;
+
+            for (int j = i; j <= sLen - wordLen; j += wordLen) {
+                String currentWord = s.substring(j, j + wordLen);
+
+                if (requiredFreq.containsKey(currentWord)) {
+                    currentFreq.put(currentWord, currentFreq.getOrDefault(currentWord, 0) + 1);
+                    wordsUsed++;
+
+                    while (currentFreq.get(currentWord) > requiredFreq.get(currentWord)) {
+                        String leftWord = s.substring(left, left + wordLen);
+                        currentFreq.put(leftWord, currentFreq.get(leftWord) - 1);
+                        wordsUsed--;
+                        left += wordLen;
+                    }
+
+                    if (wordsUsed == numWords) {
+                        result.add(left);
+
+                        String leftWord = s.substring(left, left + wordLen);
+                        currentFreq.put(leftWord, currentFreq.get(leftWord) - 1);
+                        wordsUsed--;
+                        left += wordLen;
+                    }
+                } else {
+                    currentFreq.clear();
+                    wordsUsed = 0;
+                    left = j + wordLen;
+                }
+            }
+        }
+
+        return result;
+    }
+}
