@@ -4,7 +4,7 @@
 Email Me 👉 ✉️ **krishnasen0006@gmail.com** For Project or Anything Else. 😊😊
 
 - 🔭 **I’m currently working on:** Ed-tech Platform 
-- 🌱 **I’m currently learning:** Java and Spring Boot
+- 🌱 **I’m currently learning:** AI / ML
 
   <!-- Snake Game Repo View -->
 
