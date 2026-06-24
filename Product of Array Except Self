@@ -1,0 +1,20 @@
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        answer = [1] * n
+
+        # Step 1: Fill answer with prefix products
+        # answer[i] = product of all elements to the LEFT of i
+        prefix = 1
+        for i in range(n):
+            answer[i] = prefix
+            prefix *= nums[i]
+
+        # Step 2: Multiply by suffix products (right to left)
+        # suffix tracks product of all elements to the RIGHT of i
+        suffix = 1
+        for i in range(n - 1, -1, -1):
+            answer[i] *= suffix
+            suffix *= nums[i]
+
+        return answer
