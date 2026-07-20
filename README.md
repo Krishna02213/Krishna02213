@@ -40,7 +40,7 @@ My work centers on designing intelligent, agentic systems — from **retrieval-a
 Beyond code, I bring a competitive, high-agency mindset shaped by athletics — I'm a **national-level football player** and a **state-level chess player**, both of which trained me to perform under pressure, think several moves ahead, and execute with discipline.
 
 ```yaml
-engineer:
+
 
 ```
 
