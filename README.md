@@ -250,18 +250,7 @@ Contributed to Python-based development tasks, gaining hands-on exposure to prod
 
 <br/>
 
-**Secondary Developer — Event-Driven Systems**
-`Ongoing · From June 2026`
 
-Supporting backend development involving event-driven microservice architecture and message streaming.
-
-- Working with Apache Kafka for event-driven communication between services
-- Developing backend components in Java within a microservices context
-- Applying structured, sprint-based learning to rapidly ramp up on distributed systems concepts
-
-`Java` `Apache Kafka` `Microservices` `Event-Driven Architecture`
-
----
 
 ## 🏆 Achievements
 
@@ -280,9 +269,6 @@ Supporting backend development involving event-driven microservice architecture 
 
 ## 📜 Certifications
 
-**AWS**
-
-![AWS](https://img.shields.io/badge/AWS-Cloud%20Practitioner-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900)
 
 **Oracle**
 
@@ -292,11 +278,7 @@ Supporting backend development involving event-driven microservice architecture 
 
 ![NPTEL](https://img.shields.io/badge/NPTEL-Machine%20Learning-8B5CF6?style=flat-square&logo=googlescholar&logoColor=white)
 
-**Cisco**
 
-![Cisco](https://img.shields.io/badge/Cisco-Networking%20Fundamentals-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
-
----
 
 ## 💻 Coding Profiles
 
