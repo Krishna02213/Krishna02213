@@ -41,9 +41,7 @@ Beyond code, I bring a competitive, high-agency mindset shaped by athletics — 
 
 ```yaml
 engineer:
-  focus: ["AI/ML Systems", "Agentic Workflows", "Full Stack Engineering"]
-  mindset: "Product-first, performance-obsessed, no fabricated experience"
-  philosophy: "Ship it, measure it, iterate"
+
 ```
 
 **🎯 Open To:** AI/ML Engineering Internships · Software Engineering Roles · Research Collaborations · Open Source Contributions
