@@ -336,25 +336,6 @@ Contributed to Python-based development tasks, gaining hands-on exposure to prod
 
 ---
 
-## 🎯 Current Focus
-
-```yaml
-current_focus:
-  learning:
-    - "LLM fine-tuning with LoRA"
-    - "Model serving & inference optimization"
-    - "Distributed systems with Apache Kafka"
-  building:
-    - "Multi-Tool Research Agent (LangGraph + Groq)"
-    - "Higher-signal AI/ML portfolio projects"
-  exploring:
-    - "EPC sector go-to-market strategy (Workwise)"
-    - "Agentic AI system design patterns"
-  open_to:
-    - "AI/ML Engineering Internships"
-    - "Software Engineering New-Grad Roles"
-    - "Research Collaborations"
-```
 
 ---
 
