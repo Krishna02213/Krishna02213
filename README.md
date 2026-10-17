@@ -100,7 +100,7 @@ An autonomous research agent built with **LangGraph** and **Groq**, capable of d
 | **Performance** | Low-latency inference via Groq LPU backend |
 | **Security** | Environment-isolated API key handling |
 | **Impact** | Demonstrates production-grade agentic orchestration beyond single-shot prompting |
-| **Repository** | [github.com/Krishna02213](https://github.com/Krishna02213) |
+| **Repository** | [github.com/Krishna02213/leadflow](https://github.com/Krishna02213/leadflow) |
 
 Built to move beyond simple prompt-response chains toward genuine tool-using autonomy — the agent plans, executes, and self-corrects across multi-step research tasks.
 
@@ -119,7 +119,7 @@ A retrieval-augmented generation chatbot that answers questions grounded in user
 | **Performance** | Sub-second vector retrieval via FAISS indexing |
 | **Security** | Sandboxed document parsing |
 | **Impact** | Eliminates hallucination risk by grounding responses in source context |
-| **Repository** | [github.com/Krishna02213](https://github.com/Krishna02213) |
+| **Repository** | [github.com/Krishna02213/RAG-Chatbot](https://github.com/Krishna02213/RAG-Chatbot) |
 
 Designed to showcase practical RAG architecture — chunking strategy, embedding generation, and context-aware prompt construction.
 
@@ -138,7 +138,7 @@ A deep learning model that classifies brain MRI scans for tumor detection using 
 | **Performance** | High classification accuracy via fine-tuned pretrained weights |
 | **Security** | N/A (research/educational use) |
 | **Impact** | Demonstrates applied medical imaging with transfer learning |
-| **Repository** | [github.com/Krishna02213](https://github.com/Krishna02213) |
+| **Repository** | [github.com/Krishna02213/Image-Classification-using-Convolutional-Neural-Networks-CNN-](https://github.com/Krishna02213/Image-Classification-using-Convolutional-Neural-Networks-CNN-) |
 
 A hands-on deep learning project bridging computer vision fundamentals with a socially meaningful use case.
 
@@ -157,7 +157,7 @@ A career-guidance web application combining generative AI with structured cloud 
 | **Performance** | Optimized for Render's free-tier cold-start constraints |
 | **Security** | Cloud-managed credentials, TiDB-backed persistence |
 | **Impact** | End-to-end product: from AI reasoning to deployed UI |
-| **Repository** | [github.com/Krishna02213](https://github.com/Krishna02213) |
+| **Repository** | [github.com/Krishna02213/AI_CAREER_COPILOT](https://github.com/Krishna02213/AI_CAREER_COPILOT) |
 
 Redesigned with a dark, tech-editorial glassmorphism aesthetic — engineered as a complete product, not a prototype.
 
@@ -176,7 +176,7 @@ A full-stack recommendation engine using collaborative and content-based filteri
 | **Performance** | Fast similarity-based recommendation lookups |
 | **Security** | RESTful API with input validation |
 | **Impact** | Showcases full-stack integration of an ML model into a live product |
-| **Repository** | [github.com/Krishna02213](https://github.com/Krishna02213) |
+| **Repository** | [github.com/Krishna02213/Movie-Recommendation-System](https://github.com/Krishna02213/Movie-Recommendation-System) |
 
 Built and deployed end-to-end — from model training to a React interface served in production.
 
@@ -195,7 +195,7 @@ An interactive regression-based application for predicting real estate prices fr
 | **Performance** | Real-time prediction on user input |
 | **Security** | N/A (client-facing demo app) |
 | **Impact** | Demonstrates rapid ML prototyping and deployment via Streamlit |
-| **Repository** | [github.com/Krishna02213](https://github.com/Krishna02213) |
+| **Repository** | [github.com/Krishna02213/price-prediction](https://github.com/Krishna02213/price-prediction) |
 
 </details>
 
@@ -212,7 +212,7 @@ A single-file, live GitHub API-powered dashboard visualizing repository and cont
 | **Performance** | Real-time API-driven data rendering |
 | **Security** | Read-only public API consumption |
 | **Impact** | Compact demonstration of API integration and frontend data visualization |
-| **Repository** | [github.com/Krishna02213](https://github.com/Krishna02213) |
+| **Repository** | [github.com/Krishna02213/krishna-github](https://github.com/Krishna02213/krishna-github) |
 
 </details>
 
@@ -229,7 +229,7 @@ A predictive web application estimating student placement likelihood based on ac
 | **Performance** | Real-time prediction served via Flask backend |
 | **Security** | Server-side form validation |
 | **Impact** | Applies ML to a real academic use case with a clean server-rendered UI |
-| **Repository** | [github.com/Krishna02213](https://github.com/Krishna02213) |
+| **Repository** | [github.com/Krishna02213/Student-Placement-Predictor](https://github.com/Krishna02213/Student-Placement-Predictor) |
 
 </details>
 
