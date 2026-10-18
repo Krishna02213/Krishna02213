@@ -100,7 +100,7 @@ An autonomous research agent built with **LangGraph** and **Groq**, capable of d
 | **Performance** | Low-latency inference via Groq LPU backend |
 | **Security** | Environment-isolated API key handling |
 | **Impact** | Demonstrates production-grade agentic orchestration beyond single-shot prompting |
-| **Repository** | [github.com/Krishna02213/leadflow](https://github.com/Krishna02213/leadflow) |
+| **Repository** | [github.com/Krishna02213/RAG-Chatbot](https://github.com/Krishna02213/RAG-Chatbot) |
 
 Built to move beyond simple prompt-response chains toward genuine tool-using autonomy — the agent plans, executes, and self-corrects across multi-step research tasks.
 
